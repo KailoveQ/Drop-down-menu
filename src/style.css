@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "微软雅黑";
+  outline: none;
+  box-sizing: border-box;
+}
+img {
+  border: 0 none;
+}
+.searchChoice {
+  background-color: white;
+  float: left;
+  background-position: 12px 12px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sChoiceBtn {
+  opacity: 0.56;
+}
+.scBigBox {
+  border: 1px solid black;
+  border-radius: 16px;
+  display: none;
+}
+.scSmallBox {
+  overflow: hidden;
+  width: 130px;
+  height: 34px;
+  color: #545454;
+  cursor: pointer;
+}
+.scImg {
+  width: 20px;
+  height: 20px;
+  margin: 7px 10px 0px 10px;
+  float: left;
+}
+.scName {
+  font-size: 16px;
+  float: left;
+  display: block;
+  width: 80px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 7px;
+}
